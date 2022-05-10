@@ -1,0 +1,70 @@
+:root {
+    --bgcolor: #363537;
+    --sctext: #1FCAA0;
+}
+#main a {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    float: right;
+    padding-top: 30px;
+}
+#logo {
+    float: left;
+    color: white;
+    letter-spacing: 2px;
+}
+body {
+    background-color: var(--bgcolor);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    color: white;
+}
+#jukt {
+    font-size: 50px;
+}
+#jukt span {
+    color: var(--sctext);
+}
+#ptysd {
+    font-size: 30px;
+}
+#csharp {
+    width: 30px;
+    /* margin-top: 10px; */
+}
+button {
+    background-color: var(--sctext);
+    border: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+}
+#about img {
+    border-radius: 6px;
+    margin-left: 30px;
+}
+#about h1 span {
+    color: var(--sctext);
+}
+#about div {
+    float: left;
+}
+#contact input {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+#contact .message-box {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 696px;
+}
+#copyright {
+    font-size: 10px;
+    padding-left: 45%;
+}
